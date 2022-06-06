@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 8rem;
+  background: rgb(214, 214, 214);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 3px rgba(0, 0, 0, 0.065);
+}
+
+.last-name {
+  color: rgb(6, 153, 6);
+  font-style: italic;
+  border-bottom: 5px solid rgb(6, 153, 6);
+}
+
+.profile-pic {
+  width: 15rem;
+  height: 15rem;
+  border: 2px solid gray;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 3px rgba(0, 0, 0, 0.065);
+  margin-left: 1rem;
+}
+
+.description {
+  font-size: 3rem;
+  background: rgb(214, 214, 214);
+  box-shadow: 1px 1px 1px 3px rgba(0, 0, 0, 0.065);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.age-text {
+  color: rgb(11, 113, 28);
+}

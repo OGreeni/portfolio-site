@@ -1,0 +1,12 @@
+.dividing-line-container {
+  display: flex;
+  justify-content: center;
+}
+
+.dividing-line {
+  background: rgb(187, 186, 186);
+  width: 75%;
+  height: 5px;
+  margin-top: 2.5rem;
+  border-radius: 10px;
+}

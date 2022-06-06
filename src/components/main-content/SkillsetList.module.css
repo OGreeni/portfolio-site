@@ -1,0 +1,45 @@
+/* .skills-image-container {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row-reverse;
+} */
+
+/* .programming-image {
+  width: 50%;
+  border-radius: 5px;
+} */
+
+.skillsetlist-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  margin-left: 5rem;
+  left: -100px;
+}
+
+.technologies-title {
+  margin-top: 5rem;
+  font-size: 3rem;
+  background: #f1f1f1;
+  box-shadow: 1px 1px 1px 3px rgba(0, 0, 0, 0.065);
+  padding: 1rem;
+  border-radius: 10px;
+  width: 50rem;
+  text-align: center;
+}
+
+h4 {
+  font-size: 3rem;
+  width: 30rem;
+  text-align: center;
+}
+
+.skill-badge {
+  list-style: none;
+}
+
+.skill-badge img {
+  width: 25%;
+  border-radius: 5px;
+}

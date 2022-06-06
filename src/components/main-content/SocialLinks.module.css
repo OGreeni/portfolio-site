@@ -1,0 +1,17 @@
+.links-container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 2rem;
+  left: 1rem;
+}
+
+.link-badge {
+  width: 175%;
+  border-radius: 5px;
+}
+
+.link-badge:hover,
+.link-badge:active {
+  box-shadow: 0.5px 0.5px 3px 3px rgba(191, 190, 190, 0.5);
+}

@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   position: fixed;
-  top: 2rem;
+  /* top: 2rem; */
+  top: 500rem;
   left: 1rem;
 }
 

@@ -4,13 +4,37 @@ body {
 }
 
 .main-nav {
-  display: flex;
   position: fixed;
   background: rgb(68, 68, 68);
   width: 100%;
   height: 5rem;
 }
 
+.list-items-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .main-nav-item {
   list-style: none;
+  font-size: 2rem;
+}
+
+.main-nav-item a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(244, 244, 244);
+}
+
+.main-nav-item a:hover,
+.main-nav-item a:active {
+  color: rgb(192, 190, 190);
+}
+
+.main-nav-align-right {
+  display: flex;
+  width: 17.5rem;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-right: 3rem;
 }

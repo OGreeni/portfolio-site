@@ -7,15 +7,19 @@ const Navbar = (props) => {
       <nav className={classes['main-nav']}>
         <ul className={classes['list-items-container']}>
           <li className={classes['main-nav-item' /* add brand class */]}>
-            <a href="#">Omri Green</a>
+            <div>
+              <a href="#">Omri Green</a>
+            </div>
           </li>
-          {props.navItems.map((navItem) => {
-            return (
-              <li className={classes['main-nav-item']}>
-                <a href="#">{navItem.title}</a>
-              </li>
-            );
-          })}
+          <div className={classes['main-nav-align-right']}>
+            {props.navItems.map((navItem) => {
+              return (
+                <li className={classes['main-nav-item']}>
+                  <a href="#">{navItem.title}</a>
+                </li>
+              );
+            })}
+          </div>
         </ul>
       </nav>
     </div>
